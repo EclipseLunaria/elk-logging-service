@@ -1,0 +1,8 @@
+server.name: kibana
+server.host: "0.0.0.0"
+elasticsearch.hosts: ["https://elasticsearch:9200"]
+elasticsearch.username: "elastic"
+elasticsearch.password: "Gpqu*dcFn5fD2DCAUxS1"
+xpack.security.encryptionKey: "something_at_least_32_characters"
+xpack.encryptedSavedObjects.encryptionKey: "something_at_least_32_characters"
+xpack.reporting.encryptionKey: "something_at_least_32_characters"
